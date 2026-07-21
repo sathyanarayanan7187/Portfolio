@@ -1,0 +1,31 @@
+body{
+    color: white;
+    /* background-color: #003566; */
+    /* background-color: #001d3d; */
+    /* background-color: #240046; */
+    /* background-color: #03071e; */
+    background-color: #0d1321;
+}
+
+nav {
+    text-align: right;
+    padding: 10px;
+}
+nav li{
+    margin-right: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#base-info{
+    padding: 10px;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-around;
+}
+#base-info-img #typing-img{
+    width: 500px;
+    height: 500px;
+
+}
+
