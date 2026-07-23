@@ -98,7 +98,7 @@ nav a{
     transition: all 2ms ease;
     min-width: 600px;
     height: 500px;
-    /* background-color: red; */
+    background-color: blue;
     line-height: 1.5;
     border: solid 1px white;
 }
@@ -235,9 +235,40 @@ nav a{
 
 .titleHead{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .titleHead span{
     background-color: #386173;
     padding: 10px;
+}
+
+
+/* skills styles */
+.skill-icon-container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px;
+    border-color: gray;
+    padding: 10px;
+    transition: all 2ms ease;
+}
+
+.skill-icon-container:hover{
+    scale: 1.2;
+    border-color: white;
+}
+
+.skill-icon-container img{
+    width: 100px;
+    /* background-color: black; */
+}
+
+#skill-flex-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
 }
